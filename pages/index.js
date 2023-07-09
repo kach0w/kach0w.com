@@ -63,11 +63,11 @@ export default function Home() {
         </div>
       </div>
       <h2 className='font-bold text-2xl underline mb-1'>Latest Blog Post</h2>
-      <a href="/blog/wikipedia">
+      <a href="/blog/summerupdate">
           <div className='w-[30rem] group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.30)] mx-auto p-3 mb-[3vh] text-left'>
-            <p className='font-bold group-hover:underline text-slate-900'>Wikipedia</p>
-            <p className='text-slate-600'>A speech from the Academic Decathlon competition on Wikipedia, not really web development but still about technology</p>
-            <p className=' mt-2 text-sm text-slate-400'>March 27, 2023</p>
+            <p className='font-bold group-hover:underline text-slate-900'>Summer Update</p>
+            <p className='text-slate-600'>An update, on the summer, and how I've been productive-ish</p>
+            <p className=' mt-2 text-sm text-slate-400'>July 9th, 2023</p>
           </div>  
         </a>
       <Footer />
