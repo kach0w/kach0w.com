@@ -16,7 +16,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.png"/>  
         <Script src="https://kit.fontawesome.com/a191de05ec.js" crossorigin="anonymous" />
       </Head>
-      <h2 className='font-extrabold text-3xl mt-[3vh] mb-[1vh]'>kach0w</h2>
+      <h2 className='font-extrabold text-5xl mt-[1.5rem] '>kach0w</h2>
       <div className='mb-[2vh]'>
         Trying to Learn New Things.
       </div>
@@ -29,11 +29,11 @@ export default function Home() {
             Hello, welcome to my website.
             Check out some of my <a className='text-[#3b82f6] hover:underline' href="/projects">projects</a> and also view the <a className='text-[#3b82f6] hover:underline' href="/blog">blog</a> which I try (and mostly fail) to frequently update. 
           </div>
-          <div className='absolute w-[30rem] h-[] mx-auto text-center inset-x-0 bottom-0'>
+          <div className='absolute w-[30rem] mx-auto text-center inset-x-0 bottom-0 pb-4'>
             <p>
               <a className='text-[#3b82f6] hover:underline' href="/comments">comment section</a>
               &nbsp;•&nbsp;
-              <a className='text-[#3b82f6] hover:underline' href="/publications">papers</a>
+              <a className='text-[#3b82f6] hover:underline' href="/machinelearning-breastcancer.pdf">papers</a>
               &nbsp;•&nbsp;
               <a className='text-[#3b82f6] hover:underline' href="/random">misc</a>
             </p>
@@ -41,7 +41,7 @@ export default function Home() {
       </div>
       <h2 className='font-bold text-2xl underline mb-1'>About Me</h2>
       <div className='w-[30rem] md:flex rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.30)] mx-auto p-3 mb-[3vh]'>
-        I am a high schooler trying to learn new things in Computer Science. Right now I am trying to learn backend also want to learn more about machine learning in web applications. 
+        I'm a high schooler trying to learn how to do new things with computers. Right now I am extremely interested in backend web development and learning more about machine learning. 
       </div>  
       <h2 className='font-bold text-2xl underline mb-1'>Contact</h2>
       <div className='w-[30rem] rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.30)] mx-auto p-3 mb-[3vh]'>
@@ -54,7 +54,10 @@ export default function Home() {
               <b>Email: </b><a className='text-[#3b82f6] hover:underline' href="mailto:kachow@duck.com">kachow@duck.com</a>
             </li>
             <li>
-              <b>Discord: </b><a className='text-[#3b82f6] hover:underline'>kachow#9170</a>
+              <b>Discord: </b><a className='text-[#3b82f6] hover:underline'>meiskachow</a>
+            </li>
+            <li>
+              <b>Codeforces: </b><a className='text-[#3b82f6] hover:underline' href="https://codeforces.com/profile/kachowtime">kachowtime</a>
             </li>
           </ul>
         </div>
@@ -63,7 +66,7 @@ export default function Home() {
       <a href="/blog/wikipedia">
           <div className='w-[30rem] group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.30)] mx-auto p-3 mb-[3vh] text-left'>
             <p className='font-bold group-hover:underline text-slate-900'>Wikipedia</p>
-            <p className='text-slate-600'>A speech from the Academic Decathlon competition on Wikipedia, not really web dev but still about technology in general</p>
+            <p className='text-slate-600'>A speech from the Academic Decathlon competition on Wikipedia, not really web development but still about technology</p>
             <p className=' mt-2 text-sm text-slate-400'>March 27, 2023</p>
           </div>  
         </a>
