@@ -22,10 +22,10 @@ export default function Home() {
       </div>
       <div className='mx-auto w-[70rem] grid grid-cols-3 mt-[5rem]'>
         <a href="/blog/summerupdate">
-          <div className='w-[20rem] group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.30)] mx-auto p-3 mb-[3vh] text-left'>
+          <div className='w-[20rem] group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] mx-auto p-3 mb-[3vh] text-left'>
             <p className='font-bold group-hover:underline text-slate-900'>Summer Update</p>
             <p className='text-slate-600'>An update, on the summer, and how I've been productive-ish<span>{<br/>}</span><span>{<br/>}</span></p>
-            <p className=' mt-2 text-sm text-slate-400'>July 9th, 2023</p>
+            <p className=' mt-2 text-sm text-slate-400'>July 9, 2023</p>
           </div>  
         </a>
         <a href="/blog/wikipedia">
