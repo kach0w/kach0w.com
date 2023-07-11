@@ -35,7 +35,7 @@ export default function Home() {
               &nbsp;•&nbsp;
               <a className='text-[#3b82f6] hover:underline' href="/machinelearning-breastcancer.pdf">papers</a>
               &nbsp;•&nbsp;
-              <a className='text-[#3b82f6] hover:underline' href="/resume.pdf">resume</a>
+              <a className='text-[#3b82f6] hover:underline' href="/resume-1.pdf">resume</a>
               &nbsp;•&nbsp;
               <a className='text-[#3b82f6] hover:underline' href="/random">misc</a>
             </p>
