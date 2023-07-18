@@ -21,7 +21,7 @@ export default function Home() {
       <div className='mb-[2vh]'>
         Some selected projects, you can find more on my <a className=' text-[#3b82f6] hover:underline' href="https://github.com/kach0w">GitHub</a>.
       </div>
-      <div className='mx-auto w-[70rem] grid grid-cols-3 mt-[5rem]'>
+      <div className='mx-auto w-[25rem] sm:w-[70rem] grid grid-cols-1 align-left sm:grid-cols-3 mt-[5rem]'>
         
         <a href="https://devpost.com/software/positivity-discord-bot">
           <div className='w-[20rem] group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] mx-auto p-3 mb-[3vh] text-left'>
@@ -69,7 +69,7 @@ export default function Home() {
       <div>
         Some miscellaneous projects, small things I did for fun.
       </div>
-      <div className='mx-auto w-[70rem] grid grid-cols-3 mt-[2rem]'>
+      <div className='mx-auto w-[25rem] sm:w-[70rem] grid grid-cols-1 sm:grid-cols-3 mt-[2rem]'>
         <a href="https://kach0w.github.io/web3d/wikipedia">
           <div className='w-[20rem] group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] mx-auto p-3 mb-[3vh] text-left'>
             <p className='font-bold group-hover:underline text-slate-900'>wikipedia</p>
