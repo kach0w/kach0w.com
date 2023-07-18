@@ -32,7 +32,7 @@ const Comments = () => {
         <link rel="icon" href="/favicon.png"/> 
       </Head>
       <div className='mx-auto mt-[2rem] w-[60rem]'>
-        <a className='float-left ml-[] text-[#3b82f6] hover:underline' href="https://kach0w.com">⮤ Back</a>
+        <a className='float-left ml-[] text-[#3b82f6] hover:underline' href="https://kach0w.com">↩ Back</a>
         <br></br>
       </div>
       <Commentform onNewComment={handleNewComment} />
