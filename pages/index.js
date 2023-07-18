@@ -72,7 +72,7 @@ export default function Home() {
           <div className='w-[15rem] sm:w-[30rem] text-[0.5rem] sm:text-base group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.30)] mx-auto p-3 mb-[3vh] text-left'>
             <p className='font-bold group-hover:underline text-slate-900'>Summer Update</p>
             <p className='text-slate-600'>An update, on the summer, and how I've been productive-ish</p>
-            <p className=' mt-2 text-xs sm:text-sm text-slate-400'>July 9th, 2023</p>          
+            <p className=' mt-2 text-[0.4rem] sm:text-sm text-slate-400'>July 9th, 2023</p>          
           </div>  
         </a>
       <Footer />
