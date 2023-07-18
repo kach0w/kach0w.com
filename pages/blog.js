@@ -20,7 +20,7 @@ export default function Home() {
       <div className='mb-[2vh]'>
         An infrequent update on a variety of things, from web development to new and old technologies.
       </div>
-      <div className='mx-auto w-[70rem] grid grid-cols-3 mt-[5rem]'>
+      <div className='mx-auto w-[25rem] sm:w-[70rem] grid grid-cols-1 sm:grid-cols-3 mt-[5rem]'>
         <a href="/blog/summerupdate">
           <div className='w-[20rem] group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] mx-auto p-3 mb-[3vh] text-left'>
             <p className='font-bold group-hover:underline text-slate-900'>Summer Update</p>
