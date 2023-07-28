@@ -22,9 +22,9 @@ export default function Home() {
         Some selected projects, you can find more on my <a className=' text-[#3b82f6] hover:underline' href="https://github.com/kach0w">GitHub</a>.
       </div>
       <div className='mx-auto w-[25rem] sm:w-[70rem] grid grid-cols-1 align-left sm:grid-cols-3 mt-[5rem]'>
-        <a href="https://apod-email.vercel.app/">
+        <a href="https://stargazer.vercel.app/">
           <div className='w-[20rem] group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] mx-auto p-3 mb-[3vh] text-left'>
-            <p className='font-bold group-hover:underline text-slate-900'>apod-email</p>
+            <p className='font-bold group-hover:underline text-slate-900'>star-gazer</p>
             <p className='text-slate-600'>See the stars! - In a weekly email that uses NASA's Astronomy Picture of the Day</p>
             <p className=' mt-2 text-sm text-slate-400'>NodeJS · Firebase</p>
           </div>  
