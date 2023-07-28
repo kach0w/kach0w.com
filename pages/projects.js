@@ -25,7 +25,7 @@ export default function Home() {
         <a href="https://apod-email.vercel.app/">
           <div className='w-[20rem] group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] mx-auto p-3 mb-[3vh] text-left'>
             <p className='font-bold group-hover:underline text-slate-900'>apod-email</p>
-            <p className='text-slate-600'>See the stars! - in a weekly email</p>
+            <p className='text-slate-600'>See the stars! - In a weekly email that uses NASA's Astronomy Picture of the Day</p>
             <p className=' mt-2 text-sm text-slate-400'>NodeJS · Firebase</p>
           </div>  
         </a>
