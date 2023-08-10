@@ -2,22 +2,21 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Script from 'next/script';
-
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import rusteze from '../assets/rusteze-2.png';
 
 export default function Home() {
   return (
-    <div className='w-[100vw] text-[#222] h-[100vh] bg-[#f3f3f3] text-center'>
+    <div className='w-[100vw] text-[#222] h-[100vh] bg-[#f3f3f3] text-center font-serif'>
       <Head>
         <title>kach0w</title>
         <meta name="description" content="kach0w's website"></meta>
         <link rel="icon" href="/favicon.png"/>  
         <Script src="https://kit.fontawesome.com/a191de05ec.js" crossorigin="anonymous" />
       </Head>
-      <h2 className='font-extrabold text-5xl mt-[1.5rem] '>kach0w</h2>
-      <div className='mb-[2vh]'>
+      <h2 className='text-5xl font-bold mt-[1.5rem]'>kach0w</h2>
+      <div className='mb-[2vh] italic'>
         Trying to Learn New Things.
       </div>
       
@@ -36,8 +35,8 @@ export default function Home() {
             <a className='text-[#3b82f6] hover:underline' href="/machinelearning-breastcancer.pdf">papers</a>
             &nbsp;•&nbsp;
             <a className='text-[#3b82f6] hover:underline' href="/resume.pdf">resume</a>
-            &nbsp;•&nbsp;
-            <a className='text-[#3b82f6] hover:underline' href="/random">misc</a>
+            {/* &nbsp;•&nbsp;
+            <a className='text-[#3b82f6] hover:underline' href="/random">misc</a> */}
           </p>
         </div>
       </div>
@@ -48,7 +47,7 @@ export default function Home() {
           </div>  
           
       <h2 className='font-bold text-2xl underline mb-1'>Contact</h2>
-        <div className='w-[15rem] sm:w-[30rem] text-[0.5rem] sm:text-base rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.30)] mx-auto p-3 mb-[3vh]'>
+        <div className='w-[15rem] sm:w-[30rem] sm:text-base rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.30)] mx-auto p-3 mb-[3vh]'>
           <div>
             <ul>
               <li>
@@ -70,9 +69,9 @@ export default function Home() {
       <h2 className='font-bold text-2xl underline mb-1'>Latest Blog Post</h2>
       <a href="/blog/summerupdate">
           <div className='w-[15rem] sm:w-[30rem] text-[0.5rem] sm:text-base group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.30)] mx-auto p-3 mb-[3vh] text-left'>
-            <p className='font-bold group-hover:underline text-slate-900'>Summer Update</p>
+            <p className='font-bold group-hover:underline text-slate-900 not-italic'>Summer Update</p>
             <p className='text-slate-600'>An update, on the summer, and how I've been productive-ish</p>
-            <p className=' mt-2 text-[0.4rem] sm:text-sm text-slate-400'>July 9th, 2023</p>          
+            <p className=' mt-2 text-[0.4rem] sm:text-sm text-slate-400 not-italic'>July 9th, 2023</p>          
           </div>  
         </a>
       <Footer />

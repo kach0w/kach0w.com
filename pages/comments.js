@@ -4,7 +4,7 @@ import Comments from '../components/Comments'
 
 const testcomment = () => {
   return (
-    <div>
+    <div className='font-serif'>
       
         <Comments />
         <br></br>

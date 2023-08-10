@@ -6,7 +6,7 @@ import Footer from '../components/Footer'
 
 export default function Home() {
   return (
-    <div className='w-[100vw] text-[#222] h-[100vh] bg-[#f3f3f3] text-center'>
+    <div className='w-[100vw] text-[#222] h-[100vh] bg-[#f3f3f3] text-center font-serif'>
       <Head>
         <title>Projects - kach0w</title>
         <meta name="description" content="kach0w's blog"></meta>
