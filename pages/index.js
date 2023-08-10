@@ -5,22 +5,41 @@ import Script from 'next/script';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import rusteze from '../assets/rusteze-2.png';
+import { useState } from 'react';
 
 export default function Home() {
+  const [darkMode, setDarkMode] = useState(false);
+
+  const toggleDarkMode = () => {
+    setDarkMode(prevMode => !prevMode);
+    document.documentElement.classList.toggle('dark');
+    if(!darkMode){
+      document.getElementById("darkmode").innerHTML = "☀️"
+    } else {
+      document.getElementById("darkmode").innerHTML = "🌙"
+    }
+  };
+
   return (
-    <div className='w-[100vw] text-[#222] h-[100vh] bg-[#f3f3f3] text-center font-serif'>
+    <div className={`w-[100vw] text-[#222] dark:text-[white] h-[100vh] bg-[#f3f3f3] dark:bg-slate-900 text-center font-serif ${darkMode ? 'dark' : ''}`}>
       <Head>
         <title>kach0w</title>
         <meta name="description" content="kach0w's website"></meta>
         <link rel="icon" href="/favicon.png"/>  
         <Script src="https://kit.fontawesome.com/a191de05ec.js" crossorigin="anonymous" />
       </Head>
-      <h2 className='text-5xl font-bold mt-[1.5rem]'>kach0w</h2>
+      <div className=''>
+        <button id="darkmode" onClick={toggleDarkMode} className='text-[2rem] float-right pr-2 z-10'>🌙</button>
+        <br></br>
+      </div>
+      <div>
+        <h2 className='text-5xl font-bold pt-[1.5rem]'>kach0w</h2>
+      </div>
       <div className='mb-[2vh] italic'>
         Trying to Learn New Things.
       </div>
       
-      <div className='w-[15rem] sm:w-[30rem] h-[7rem] text-[0.5rem] sm:text-base sm:h-[14rem] md:flex sm:flex relative rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.30)] m-auto mb-[2rem] text-center'>
+      <div className='w-[15rem] sm:w-[30rem] dark:bg-slate-800 h-[7rem] text-[0.5rem] sm:text-base sm:h-[14rem] md:flex sm:flex relative rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.30)] m-auto mb-[2rem] text-center'>
         <div className='absolute w-[7rem] sm:w-[15rem]  left-0 top-0'>
           <Image src={rusteze} alt="img" />
         </div>
@@ -42,35 +61,35 @@ export default function Home() {
       </div>
       
       <h2 className='font-bold text-2xl underline mb-1'>About Me</h2>
-          <div className='w-[15rem] sm:w-[30rem] md:flex rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.30)] mx-auto p-3 mb-[3vh] text-[0.5rem] sm:text-base'>
-            I'm a high schooler trying to learn how to do new things with computers. Right now I am extremely interested in backend web development and learning more about machine learning.  
-          </div>  
+      <div className='w-[15rem] dark:bg-slate-800 sm:w-[30rem] md:flex rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.30)] mx-auto p-3 mb-[3vh] text-[0.5rem] sm:text-base'>
+        I'm a high schooler trying to learn how to do new things with computers. Right now I am extremely interested in backend web development and learning more about machine learning.  
+      </div>  
           
       <h2 className='font-bold text-2xl underline mb-1'>Contact</h2>
-        <div className='w-[15rem] sm:w-[30rem] sm:text-base rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.30)] mx-auto p-3 mb-[3vh]'>
-          <div>
-            <ul>
-              <li>
-                <b>GitHub: </b><a className='text-[#3b82f6] hover:underline' href="https://github.com/kach0w">kach0w</a>
-              </li>
-              <li>
-                <b>Email: </b><a className='text-[#3b82f6] hover:underline' href="mailto:kachow@duck.com">kachow@duck.com</a>
-              </li>
-              <li>
-                <b>Discord: </b><a className='text-[#3b82f6] hover:underline'>meiskachow</a>
-              </li>
-              <li>
-                <b>Codeforces: </b><a className='text-[#3b82f6] hover:underline' href="https://codeforces.com/profile/kachowtime">kachowtime</a>
-              </li>
-            </ul>
-          </div>
+      <div className='w-[15rem] sm:w-[30rem] dark:bg-slate-800 sm:text-base rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.30)] mx-auto p-3 mb-[3vh]'>
+        <div>
+          <ul>
+            <li>
+              <b>GitHub: </b><a className='text-[#3b82f6] hover:underline' href="https://github.com/kach0w">kach0w</a>
+            </li>
+            <li>
+              <b>Email: </b><a className='text-[#3b82f6] hover:underline' href="mailto:kachow@duck.com">kachow@duck.com</a>
+            </li>
+            <li>
+              <b>Discord: </b><a className='text-[#3b82f6] hover:underline'>meiskachow</a>
+            </li>
+            <li>
+              <b>Codeforces: </b><a className='text-[#3b82f6] hover:underline' href="https://codeforces.com/profile/kachowtime">kachowtime</a>
+            </li>
+          </ul>
         </div>
+      </div>
               
       <h2 className='font-bold text-2xl underline mb-1'>Latest Blog Post</h2>
       <a href="/blog/summerupdate">
-          <div className='w-[15rem] sm:w-[30rem] text-[0.5rem] sm:text-base group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.30)] mx-auto p-3 mb-[3vh] text-left'>
-            <p className='font-bold group-hover:underline text-slate-900 not-italic'>Summer Update</p>
-            <p className='text-slate-600'>An update, on the summer, and how I've been productive-ish</p>
+          <div className='w-[15rem] dark:bg-slate-800 sm:w-[30rem] text-[0.5rem] sm:text-base group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.30)] mx-auto p-3 mb-[3vh] text-left'>
+            <p className='font-bold group-hover:underline text-slate-900 dark:text-[white] not-italic'>Summer Update</p>
+            <p className='text-slate-600 dark:text-slate-300'>An update, on the summer, and how I've been productive-ish</p>
             <p className=' mt-2 text-[0.4rem] sm:text-sm text-slate-400 not-italic'>July 9th, 2023</p>          
           </div>  
         </a>
