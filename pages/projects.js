@@ -17,13 +17,13 @@ export default function Home() {
     }
   };
   return (
-    <div className='w-[100vw] text-[#222] dark:text-[white] h-[100vh] bg-[#f3f3f3] dark:bg-slate-900 text-center font-serif'>
+    <div className={`w-[100vw] h-[100vh] text-[#222] dark:text-[white] bg-[#f3f3f3] dark:bg-slate-900 text-center font-serif ${darkMode ? 'dark' : ''}`}>
       <Head>
         <title>Projects - kach0w</title>
         <meta name="description" content="kach0w's blog"></meta>
         <link rel="icon" href="/favicon.png"/> 
       </Head>
-      <div className='w-[100vw]'>
+      <div className='w-[100vw] bg-[#f3f3f3] dark:bg-slate-900'>
         <a className='float-left ml-[30rem] mt-[3rem] text-[#3b82f6] hover:underline' href="https://kach0w.com">⮤ Back</a>
         <button id="darkmode" onClick={toggleDarkMode} className='text-[2rem] float-right pr-2 z-10'>🌙</button>
         <br></br>
@@ -35,7 +35,7 @@ export default function Home() {
       <div className='mb-[2vh]'>
         Some selected projects, you can find more on my <a className=' text-[#3b82f6] hover:underline' href="https://github.com/kach0w">GitHub</a>.
       </div>
-      <div className='mx-auto w-[25rem]  sm:w-[70rem] grid grid-cols-1 align-left sm:grid-cols-3 mt-[5rem]'>
+      <div className='mx-auto w-[25rem] bg-[#f3f3f3] dark:bg-slate-900 sm:w-[70rem] grid grid-cols-1 align-left sm:grid-cols-3 mt-[5rem]'>
         <a href="https://stargazer.vercel.app/">
           <div className='w-[20rem] dark:bg-slate-800 group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] mx-auto p-3 mb-[3vh] text-left'>
             <p className='font-bold group-hover:underline dark:text-[white] not-italic text-slate-900'>star-gazer</p>
@@ -96,7 +96,7 @@ export default function Home() {
       <div>
         Some miscellaneous projects, small things I did for fun.
       </div>
-      <div className='mx-auto w-[25rem] sm:w-[70rem] grid grid-cols-1 sm:grid-cols-3 mt-[2rem]'>
+      <div className='mx-auto w-[25rem] sm:w-[70rem] bg-[#f3f3f3] dark:bg-slate-900 grid grid-cols-1 sm:grid-cols-3 mt-[2rem]'>
         <a href="https://kach0w.github.io/web3d/wikipedia">
           <div className='w-[20rem] dark:bg-slate-800 group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] mx-auto p-3 mb-[3vh] text-left'>
             <p className='font-bold group-hover:underline text-slate-900 dark:text-[white] not-italic'>wikipedia</p>
@@ -119,8 +119,15 @@ export default function Home() {
           </div>  
         </a>
       </div>
-      <div className='mt-[35rem]'>
-        <Footer />
+      <div className='w-[25rem] mx-auto text-slate-500 text-sm font-normal'>
+        <div class="float-left">
+            <p>Fremont, California</p>
+        </div>
+        <div class="float-right">
+            <a className='text-[#3b82f6] hover:underline' href="https://github.com/kach0w">GitHub </a>·
+            {/* <a className='hover:text-slate-300' href="https://github.com/kach0w"><i class="fab fa-github"></i> GitHub</a> ·  */}
+            <a className=' text-[#3b82f6] hover:underline' href="mailto:kachow@duck.com"> Email</a>
+        </div>
       </div>
     </div>
   )

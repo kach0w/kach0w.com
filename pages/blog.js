@@ -23,7 +23,7 @@ export default function Home() {
         <meta name="description" content="kach0w's blog"></meta>
         <link rel="icon" href="/favicon.png"/> 
       </Head>
-      <div className='w-[100vw]'>
+      <div className='w-[100vw] bg-[#f3f3f3] dark:bg-slate-900'>
         <a className='float-left ml-[30rem] mt-[3rem] text-[#3b82f6] hover:underline' href="https://kach0w.com">⮤ Back</a>
         <button id="darkmode" onClick={toggleDarkMode} className='text-[2rem] float-right pr-2 z-10'>🌙</button>
         <br></br>
@@ -31,11 +31,11 @@ export default function Home() {
         <br></br>
       </div>
 
-      <h2 className='font-extrabold text-3xl mt-[3vh] mb-[1vh]'>Blog</h2>
+      <h2 className='font-extrabold text-3xl mt-[3vh] mb-[1vh] bg-[#f3f3f3] dark:bg-slate-900'>Blog</h2>
       <div className='mb-[2vh]'>
         An infrequent update on a variety of things, from web development to new and old technologies.
       </div>
-      <div className='mx-auto w-[25rem] sm:w-[70rem] grid grid-cols-1 sm:grid-cols-3 mt-[5rem]'>
+      <div className='mx-auto bg-[#f3f3f3] dark:bg-slate-900 w-[25rem] sm:w-[70rem] grid grid-cols-1 sm:grid-cols-3 mt-[5rem]'>
         <a href="/blog/summerupdate">
           <div className='w-[20rem] h-[10rem] dark:bg-slate-800 group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.16)] mx-auto p-3 mb-[3vh] text-left'>
             <p className='font-bold group-hover:underline text-slate-900 dark:text-[white] not-italic'>Summer Update</p>
@@ -87,9 +87,18 @@ export default function Home() {
         </a>
       </div>
       
-      <div className='mt-[35rem]'>
-        <Footer />
-      </div>
+        <div className='w-[25rem] mx-auto text-slate-500 text-sm font-normal'>
+          <div class="float-left">
+              <p>Fremont, California</p>
+          </div>
+          <div class="float-right">
+              <a className='text-[#3b82f6] hover:underline' href="https://github.com/kach0w">GitHub </a>·
+              {/* <a className='hover:text-slate-300' href="https://github.com/kach0w"><i class="fab fa-github"></i> GitHub</a> ·  */}
+              <a className=' text-[#3b82f6] hover:underline' href="mailto:kachow@duck.com"> Email</a>
+          </div>
+        </div>
+
+
     </div>
   )
 }

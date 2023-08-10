@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Footer = () => {
+const Footer = (tog) => {
   return (
-    <div className='mt-[8rem] w-[25rem] mx-auto bg-[#f3f3f3] text-slate-500 text-sm font-normal'>
+    <div className={`w-[25rem] bg-[#f3f3f3] dark:bg-slate-900 mx-auto text-slate-500 text-sm font-normal ${tog ? 'dark' : ''}`}>
         <div class="float-left">
             <p>Fremont, California</p>
         </div>
