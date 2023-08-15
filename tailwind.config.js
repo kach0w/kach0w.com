@@ -10,8 +10,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'serif': ['Futura Medium', ...defaultTheme.fontFamily.sans],
-        'sans': ['Times', ...defaultTheme.fontFamily.sans],
+        sans: ['Cascadia Code', 'ui-monospace', 'monospace'],        // 'sans': ['Times', ...defaultTheme.fontFamily.sans],
       },
     },
   },

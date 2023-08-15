@@ -5,14 +5,15 @@
 
 
 @font-face {
-  font-family: 'Futura';
-  src: url(/public/fonts/Futura\ Medium.otf);
+  font-family: 'Cascadia Code';
+  src: url('/fonts/CascadiaCode.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
-
-@font-face {
+/* @font-face {
   font-family: 'Futura-Oblique';
   src: url(/public/fonts/futura-italic.otf);
-}
+} */
 
 html,
 body {
@@ -21,7 +22,7 @@ body {
   height: 100vh;
   /* font-family: "Futura", sans-serif; */
   overflow-x: hidden;
-  background-color: #f3f3f3;
+  /* background-color: #f3f3f3; */
   /* font-weight:600; */
   box-sizing: border-box;
 
@@ -36,7 +37,7 @@ a {
 }
 
 * {
-  /* font-family: "Futura", sans-serif; */
+  font-family: "Cascadia Code", sans-serif;
   box-sizing: border-box;
   /* font-style: italic; */
   /* font-weight:600; */

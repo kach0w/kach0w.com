@@ -17,14 +17,14 @@ export default function Home() {
     }
   };
   return (
-    <div className={`w-[100vw] h-[100vh] text-[#222] dark:text-[white] bg-[#f3f3f3] dark:bg-slate-900 text-center font-serif ${darkMode ? 'dark' : ''}`}>
+    <div className={`w-[100vw] text-[#222] dark:text-[white] font-sans bg-[#f3f3f3] dark:bg-slate-900 text-center font-serif ${darkMode ? 'dark' : ''}`}>
       <Head>
         <title>Projects - kach0w</title>
         <meta name="description" content="kach0w's blog"></meta>
         <link rel="icon" href="/favicon.png"/> 
       </Head>
       <div className='w-[100vw] bg-[#f3f3f3] dark:bg-slate-900'>
-        <a className='float-left ml-[30rem] mt-[3rem] text-[#3b82f6] hover:underline' href="https://kach0w.com">⮤ Back</a>
+        <a className='float-left ml-[30rem] mt-[3rem] text-[#3b82f6] hover:underline' href="/">⮤ Back</a>
         <button id="darkmode" onClick={toggleDarkMode} className='text-[2rem] float-right pr-2 z-10'>🌙</button>
         <br></br>
         <br></br>
@@ -119,13 +119,16 @@ export default function Home() {
           </div>  
         </a>
       </div>
-      <div className='w-[25rem] mx-auto bg-[#f3f3f3] dark:bg-slate-900 text-slate-500 text-sm font-normal'>
-        <div class="float-left">
-            <p>Fremont, California</p>
-        </div>
-        <div class="float-right">
-            <a className='text-[#3b82f6] hover:underline' href="https://github.com/kach0w">GitHub </a>·
-            <a className=' text-[#3b82f6] hover:underline' href="mailto:kachow@duck.com"> Email</a>
+      <div className='pb-5 dark:bg-slate-900'>
+        <div className='w-[25rem] mx-auto text-slate-500 dark:text-slate-200 text-sm font-normal'>
+          <div className="float-left">
+              <p>Fremont, California</p>
+          </div>
+          <div className="float-right">
+              <a className='text-[#3b82f6] hover:underline' href="https://github.com/kach0w">GitHub</a> · 
+              {/* <a className='hover:text-slate-300' href="https://github.com/kach0w"><i class="fab fa-github"></i> GitHub</a> ·  */}
+              <a className=' text-[#3b82f6] hover:underline' href="mailto:kachow@duck.com"> Email</a>
+          </div>
         </div>
       </div>
     </div>
