@@ -34,6 +34,8 @@ export default function Home() {
       <h2 className='font-extrabold text-3xl mt-[3vh] mb-[1vh] bg-[#f3f3f3] dark:bg-slate-900'>Blog</h2>
       <div className='mb-[2vh]'>
         An infrequent update on a variety of things, from web development to new and old technologies.
+        <br></br>
+        View it here, or view it on my main <a href="https://bloggger.vercel.app/blog?emailAddress=karsab343@gmail.com">blog</a>
       </div>
       <div>
         <div>
