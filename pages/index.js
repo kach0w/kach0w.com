@@ -26,21 +26,21 @@ export default function Home() {
         <Script src="https://kit.fontawesome.com/a191de05ec.js" crossorigin="anonymous" />
       </Head>
       <div className=''>
-        <button id="darkmode" onClick={toggleDarkMode} className='text-[2rem] float-right pr-2 z-10'>🌙</button>
+        <button id="darkmode" onClick={toggleDarkMode} className='text-[1.5rem] float-right pr-2 z-10'>🌙</button>
         <br></br>
       </div>
       <div>
-        <h2 className='text-5xl font-bold pt-[1.5rem]'>kach0w</h2>
+        <h2 className='text-5xl pt-[1rem]'>kach0w</h2>
       </div>
       <div className='mb-[2vh] italic'>
         Trying to Learn New Things.
       </div>
       
-      <div className='w-[15rem] sm:w-[30rem] dark:bg-slate-800 h-[7rem] sm:h-[15rem] text-[0.5rem] sm:text-base sm:h-[14rem] md:flex sm:flex relative rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.30)] m-auto mb-[2rem] text-center'>
+      <div className='w-[15rem] sm:w-[30rem] dark:bg-slate-800 h-[7rem] sm:h-[15rem] text-[0.5rem] sm:text-base sm:h-[14rem] md:flex sm:flex relative rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.30)] m-auto mb-[2vh] text-center'>
         <div className='absolute w-[7rem] sm:w-[15rem]  left-0 top-0'>
           <Image src={rusteze} alt="img" />
         </div>
-        <div className='absolute text-[0.5rem] sm:text-[1rem] w-[8rem] sm:w-[15rem] pr-[1rem] sm:pr-[2rem] pt-[1rem] sm:pt-[1rem] text-center top-0 right-0'>
+        <div className='absolute text-[0.5rem] mt-[1.3rem] sm:text-[1rem] w-[8rem] sm:w-[15rem] pr-[1rem] sm:pr-[2rem] pt-[1rem] sm:pt-[1rem] text-center top-0 right-0'>
           Hello, welcome to my website.
           Check out some of my <a className='text-[#3b82f6] hover:underline' href="/projects">projects</a> and also view the <a className='text-[#3b82f6] hover:underline' href="/blog">blog</a> which I try (and mostly fail) to frequently update.
         </div>
@@ -58,8 +58,8 @@ export default function Home() {
       </div>
       
       <h2 className='font-bold text-2xl underline mb-1'>About Me</h2>
-      <div className='w-[15rem] dark:bg-slate-800 sm:w-[30rem] md:flex rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.30)] mx-auto p-3 mb-[3vh] text-[0.5rem] sm:text-base'>
-        I'm a high schooler trying to learn how to do new things with computers. Right now I am extremely interested in backend web development and learning more about machine learning.  
+      <div className='w-[15rem] dark:bg-slate-800 sm:w-[30rem] md:flex rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.30)] mx-auto p-3 mb-[2vh] text-[0.5rem] sm:text-base'>
+        I'm a high schooler trying to learn how to do new things. I'm extremely interested in backend web development (mostly NodeJS) and machine learning where I do stuff with Jupyter Notebook and IBM Watson. Shoot me a message if you want to collaborate on something; I am always excited to do so.  
       </div>  
           
       <h2 className='font-bold text-2xl underline mb-1'>Contact</h2>
@@ -75,22 +75,22 @@ export default function Home() {
             <li>
               <b>Discord: </b><a className='text-[#3b82f6] hover:underline'>meiskachow</a>
             </li>
-            <li>
+            {/* <li>
               <b>Codeforces: </b><a className='text-[#3b82f6] hover:underline' href="https://codeforces.com/profile/kachowtime">kachowtime</a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
               
-      <h2 className='font-bold text-2xl underline mb-1'>Latest Blog Post</h2>
+      <h2 className='font-bold text-2xl underline'>Latest Blog Post</h2>
       <a href="/blog/summerupdate">
-          <div className='w-[15rem] dark:bg-slate-800 sm:w-[30rem] text-[0.5rem] sm:text-base group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.30)] mx-auto p-3 mb-[3vh] text-left'>
+          <div className='w-[15rem] dark:bg-slate-800 sm:w-[30rem] text-[0.5rem] sm:text-base group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.30)] mx-auto p-3 mb-[2vh] text-left'>
             <p className='font-bold group-hover:underline text-slate-900 dark:text-[white] not-italic'>Summer Update</p>
             <p className='text-slate-600 dark:text-slate-300'>An update, on the summer, and how I've been productive-ish</p>
             <p className=' mt-2 text-[0.4rem] sm:text-sm text-slate-400 not-italic'>July 9th, 2023</p>          
           </div>  
       </a>
-      <div className='pb-5 dark:bg-slate-900'>
+      <div className='dark:bg-slate-900'>
         <div className='w-[25rem] mx-auto text-slate-500 dark:text-slate-200 text-sm font-normal'>
           <div className="float-left">
               <p>Fremont, California</p>
