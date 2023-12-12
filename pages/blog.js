@@ -38,7 +38,17 @@ export default function Home() {
         View it here, or on my "main" <a href="https://bloggger.vercel.app/blog?emailAddress=karsab343@gmail.com">blog</a> on Bloggger.
       </div>
       <ul>
-        
+        <li className='w-[650px] py-[50px] mx-auto'>
+          <a href="/blog/winterupdate">
+          <div >
+            <img width="300px" className="inline-block rounded-md" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.agedcareguide.com.au%2Fassets%2Fnews%2Farticles%2Fmerry-xmas.jpg&f=1&nofb=1&ipt=eb52867181264b14566f5b592245d1cb3c8462f850c541694379b7deefc378b5&ipo=images"></img>
+            <div className='inline-block pl-[50px] w-[300px]'>
+              <h2 className='text-left text-[20px]'>Winter Update or: How I Need Better Titles, Oh Wait Actually "So Long 2023!"</h2>
+              <h2 className='text-left text-[15px]'>12-11-23</h2>
+            </div>
+          </div>
+          </a>
+        </li> 
         <li className='w-[650px] py-[50px] mx-auto'>
           <a href="/blog/summerupdate">
           <div >

@@ -59,7 +59,7 @@ export default function Home() {
       
       <h2 className='font-bold text-2xl underline mb-1'>About Me</h2>
       <div className='w-[15rem] dark:bg-slate-800 sm:w-[30rem] md:flex rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.30)] mx-auto p-3 mb-[2vh] text-[0.5rem] sm:text-base'>
-        I'm a high schooler trying to learn how to do new things. I'm extremely interested in backend web development (mostly NodeJS) and machine learning where I do stuff with Jupyter Notebook and IBM Watson. Shoot me a message if you want to collaborate on something; I am always excited to do so.  
+        I'm a high schooler trying to learn how to do new things. I'm extremely interested in backend web development (mostly NodeJS) and machine learning where I do stuff with Jupyter Notebook and IBM Watson. Shoot me a message if you want to collaborate on something. I am always excited to do so.  
       </div>  
           
       <h2 className='font-bold text-2xl underline mb-1'>Contact</h2>
@@ -85,9 +85,8 @@ export default function Home() {
       <h2 className='font-bold text-2xl underline'>Latest Blog Post</h2>
       <a href="/blog/summerupdate">
           <div className='w-[15rem] dark:bg-slate-800 sm:w-[30rem] text-[0.5rem] sm:text-base group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.30)] mx-auto p-3 mb-[2vh] text-left'>
-            <p className='font-bold group-hover:underline text-slate-900 dark:text-[white] not-italic'>Summer Update</p>
-            <p className='text-slate-600 dark:text-slate-300'>An update, on the summer, and how I've been productive-ish</p>
-            <p className=' mt-2 text-[0.4rem] sm:text-sm text-slate-400 not-italic'>July 9th, 2023</p>          
+            <p className='font-bold group-hover:underline text-slate-900 dark:text-[white] not-italic'>Winter Update or: How I Need Better Titles, Oh Wait "So Long 2023!"</p>
+            <p className=' mt-2 text-[0.4rem] sm:text-sm text-slate-400 not-italic'>December 11th, 2023</p>          
           </div>  
       </a>
       <div className='dark:bg-slate-900'>
