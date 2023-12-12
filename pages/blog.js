@@ -35,218 +35,88 @@ export default function Home() {
       <div className='mb-[2vh]'>
         An infrequent update on a variety of things, from web development to new and old technologies.
         <br></br>
-        View it here, or view it on my main <a href="https://bloggger.vercel.app/blog?emailAddress=karsab343@gmail.com">blog</a>
+        View it here, or on my "main" <a href="https://bloggger.vercel.app/blog?emailAddress=karsab343@gmail.com">blog</a> on Bloggger.
       </div>
-      <div>
-        <div>
-          <div className='inline-block '>
-            <ol className='relative w-[50rem] h-[10rem] mx-auto'>
-              <li class="mt-2 mr-4">
-                  <div className='w-[49rem] h-[2rem] text-right'>
-                    <p className='text-xs group-hover:underline text-slate-900 dark:text-[white] not-italic'>July 9th, 2023</p>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                  </div>  
-                  
-              </li>
-            </ol>
-          </div> 
-          <div className='inline-block'>
-          <ol className='relative border-slate-400 dark:border-white border-l-2 w-[50rem] h-[11rem] mx-auto'>
-            <li class="ml-4">
-              <div class="absolute w-3 h-3 rounded-full mt-2 -left-1.5 pr-1.5 border bg-gray-700"></div>
-              <a href="/blog/summerupdate">
-                <div className='w-[20rem] group text-left'>
-                  <p className='font-bold group-hover:underline text-slate-900 dark:text-[white] not-italic'>Summer Update</p>
-                  <p className='text-slate-600 dark:text-slate-300'>An update, on the summer, and how I've been productive-ish<span>{<br/>}</span><span>{<br/>}</span></p>
-                </div>  
-              </a>  
-            </li>
-          </ol>
-        </div> 
-        </div>
-        <div>
-          <div className='inline-block '>
-            <ol className='relative w-[50rem] h-[10rem] mx-auto'>
-              <li class="mb-10 mr-4">
-                  <div className='w-[49rem] h-[2rem] text-right'>
-                    <p className='text-xs group-hover:underline text-slate-900 dark:text-[white] not-italic'>March 27, 2023</p>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                  </div>  
-              </li>
-            </ol>
-          </div> 
-          <div className='inline-block'>
-          <ol className='relative border-slate-400 dark:border-white border-l-2 w-[50rem] h-[11rem] mx-auto'>
-            <li class="mb-10 ml-4">
-              <div class="absolute w-3 h-3 rounded-full mt-2 -left-1.5 pr-1.5 border bg-gray-700"></div>
-              <a href="/blog/summerupdate">
-                <div className='w-[20rem] text-left group'>
-                  <p className='font-bold group-hover:underline text-slate-900 dark:text-[white] not-italic'>Wikipedia</p>
-                  <p className='text-slate-600 dark:text-slate-300'>A speech from the Academic Decathlon competition on Wikipedia, not really web dev but still about technology in general</p>
-                </div>  
-              </a>  
-            </li>
-          </ol>
-        </div> 
-        </div>
-        <div>
-          <div className='inline-block '>
-            <ol className='relative w-[50rem] h-[10rem] mx-auto'>
-              <li class="mr-4">
-                  <div className='w-[49rem] h-[2rem] text-right'>
-                    <p className='text-xs group-hover:underline text-slate-900 dark:text-[white] not-italic'>February 22, 2023</p>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                  </div>  
-              </li>
-            </ol>
-          </div> 
-          <div className='inline-block'>
-          <ol className='relative border-slate-400 dark:border-white border-l-2 w-[50rem] h-[11rem] mx-auto'>
-            <li class="ml-4">
-              <div class="absolute w-3 h-3 rounded-full mt-2 -left-1.5 pr-1.5 border bg-gray-700"></div>
-              <a href="/blog/summerupdate">
-                <div className='w-[20rem] text-left group'>
-                  <p className='font-bold group-hover:underline text-slate-900 dark:text-[white] not-italic'>Express JS</p>
-                  <p className='text-slate-600 dark:text-slate-300'>A first step into back-end programming; learning things with express like MySQL and HTTP requests</p>
-                </div>  
-              </a>  
-            </li>
-          </ol>
-        </div> 
-        </div>
-        <div>
-          <div className='inline-block '>
-            <ol className='relative w-[50rem] h-[10rem] mx-auto'>
-              <li class="mr-4">
-                  <div className='w-[49rem] h-[2rem] text-right'>
-                    <p className='text-xs group-hover:underline text-slate-900 dark:text-[white] not-italic'>January 22, 2023</p>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                  </div>  
-              </li>
-            </ol>
-          </div> 
-          <div className='inline-block'>
-          <ol className='relative border-slate-400 dark:border-white border-l-2 w-[50rem] h-[11rem] mx-auto'>
-            <li class="ml-4">
-              <div class="absolute w-3 h-3 rounded-full mt-2 -left-1.5 pr-1.5 border bg-gray-700"></div>
-              <a href="/blog/summerupdate">
-                <div className='w-[20rem] text-left group'>
-                  <p className='font-bold group-hover:underline text-slate-900 dark:text-[white] not-italic'>OpenAI</p>
-                  <p className='text-slate-600 dark:text-slate-300'>Some words on the technology behind OpenAI's Dalle-2 and ChatGPT and some of the controversy behind it</p>
-                </div>  
-              </a>  
-            </li>
-          </ol>
-        </div> 
-        </div>
-        <div>
-          <div className='inline-block '>
-            <ol className='relative w-[50rem] h-[10rem] mx-auto'>
-              <li class="mr-4">
-                  <div className='w-[49rem] h-[2rem] text-right'>
-                    <p className='text-xs group-hover:underline text-slate-900 dark:text-[white] not-italic'>September 4, 2022</p>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                  </div>  
-              </li>
-            </ol>
-          </div> 
-          <div className='inline-block'>
-          <ol className='relative border-slate-400 dark:border-white border-l-2 w-[50rem] h-[11rem] mx-auto'>
-            <li class="ml-4">
-              <div class="absolute w-3 h-3 rounded-full mt-2 -left-1.5 pr-1.5 border bg-gray-700"></div>
-              <a href="/blog/summerupdate">
-                <div className='w-[20rem] text-left group'>
-                  <p className='font-bold group-hover:underline text-slate-900 dark:text-[white] not-italic'>Statistics with ChartJS</p>
-                  <p className='text-slate-600 dark:text-slate-300'>Implementing things I learned in my Statistics class with the Javascript graphing tool ChartJS.&nbsp;&nbsp;&nbsp;</p>
-                </div>  
-              </a>  
-            </li>
-          </ol>
-        </div> 
-        </div>
-        <div>
-          <div className='inline-block '>
-            <ol className='relative w-[50rem] h-[10rem] mx-auto'>
-              <li class="mr-4">
-                  <div className='w-[49rem] h-[2rem] text-right'>
-                    <p className='text-xs group-hover:underline text-slate-900 dark:text-[white] not-italic'>June 21, 2022</p>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                  </div>  
-              </li>
-            </ol>
-          </div> 
-          <div className='inline-block'>
-          <ol className='relative border-slate-400 dark:border-white border-l-2 w-[50rem] h-[11rem] mx-auto'>
-            <li class="ml-4">
-              <div class="absolute w-3 h-3 rounded-full mt-2 -left-1.5 pr-1.5 border bg-gray-700"></div>
-              <a href="/blog/summerupdate">
-                <div className='w-[20rem] text-left group'>
-                  <p className='font-bold group-hover:underline text-slate-900 dark:text-[white] not-italic'>Pokédex</p>
-                  <p className='text-slate-600 dark:text-slate-300'>Using a Pokemon API to create a pokedex (a wide grid of all pokemon) along with a search function</p>
-                </div>  
-              </a>  
-            </li>
-          </ol>
-        </div> 
-        </div>
-        <div>
-          <div className='inline-block '>
-            <ol className='relative w-[50rem] h-[10rem] mx-auto'>
-              <li class="mr-4">
-                  <div className='w-[49rem] h-[2rem] text-right'>
-                    <p className='text-xs group-hover:underline text-slate-900 dark:text-[white] not-italic'>April 16th, 2022</p>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                  </div>  
-              </li>
-            </ol>
-          </div> 
-          <div className='inline-block'>
-          <ol className='relative border-slate-400 dark:border-white border-l-2 w-[50rem] h-[8rem] mx-auto'>
-            <li class="ml-4">
-              <div class="absolute w-3 h-3 rounded-full mt-2 -left-1.5 pr-1.5 border bg-gray-700"></div>
-              <a href="/blog/summerupdate">
-                <div className='w-[20rem] text-left group'>
-                  <p className='font-bold group-hover:underline text-slate-900 dark:text-[white] not-italic'>Javascript</p>
-                  <p className='text-slate-600 dark:text-slate-300'>My first experience with Javascript, starting with making a Discord bot for fun with friends.&nbsp;&nbsp;&nbsp;</p>
-                </div>  
-              </a>  
-            </li>
-          </ol>
-        </div> 
-        </div>
-      </div>
-      
-      <div className='pb-5 dark:bg-slate-900'>
-        <div className='w-[25rem] mx-auto text-slate-500 dark:text-slate-200 text-sm font-normal'>
-          <div className="float-left">
-              <p>Fremont, California</p>
+      <ul>
+        
+        <li className='w-[650px] py-[50px] mx-auto'>
+          <a href="/blog/summerupdate">
+          <div >
+            <img width="300px" className="inline-block rounded-md" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F4.bp.blogspot.com%2F-0meZkZQmkjI%2FTjnuG-7DjwI%2FAAAAAAAAn2M%2FTzJ7sIQFRLg%2Fs1600%2FSummer%2Bsky.jpg&f=1&nofb=1&ipt=4f6210c6ce9361bb263fbfe0a051846e4eb62a8322a9d42fe22928b188e2f77f&ipo=images"></img>
+            <div className='inline-block pl-[50px] w-[300px]'>
+              <h2 className='text-left text-[20px]'>Summer Update or: How I Started Being "Productive"</h2>
+              <h2 className='text-left text-[15px]'>07-09-23</h2>
+            </div>
           </div>
-          <div className="float-right">
-              <a className='text-[#3b82f6] hover:underline' href="https://github.com/kach0w">GitHub</a> · 
-              <a className=' text-[#3b82f6] hover:underline' href="mailto:kachow@duck.com"> Email</a>
+          </a>
+        </li>  
+        <li className='w-[650px] py-[50px] mx-auto'>
+          <a href="/blog/wikipedia">
+          <div >
+            <img width="300px" className="inline-block rounded-md" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.4B-q0pJAU3t6WUZznaAbqgHaEK%26pid%3DApi&f=1&ipt=f12620897bf32d452a9b26e15704e0a7da2f323e8b1c499046a31d803775507a&ipo=images"></img>
+            <div className='inline-block pl-[50px] w-[300px]'>
+              <h2 className='text-left text-[20px]'>A Speech on Wikipedia</h2>
+              <h2 className='text-left text-[15px]'>03-27-23</h2>
+            </div>
           </div>
-        </div>
-      </div>
+          </a>
+        </li>  
+        <li className='w-[650px] py-[50px] mx-auto'>
+          <a href="/blog/express">
+          <div >
+            <img width="300px" className="inline-block rounded-md" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmiro.medium.com%2Fv2%2Fresize%3Afit%3A805%2F1*t40l2rOzSEXZbvGWClW-Pw.png&f=1&nofb=1&ipt=9949746dd28fcfd54295aef0cc07a0fbecbf17826fc9aca1fa2ca6573b4095a3&ipo=images"></img>
+            <div className='inline-block pl-[50px] w-[300px]'>
+              <h2 className='text-left text-[20px]'>A Step Into Express</h2>
+              <h2 className='text-left text-[15px]'>02-22-23</h2>
+            </div>
+          </div>
+          </a>
+        </li>  
+        <li className='w-[650px] py-[50px] mx-auto'>
+          <a href="/blog/openai">
+          <div >
+            <img width="300px" className="inline-block rounded-md" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.trE6pDtUHHqDMddpeKL5oAHaEK%26pid%3DApi&f=1&ipt=b6ff663f1063f9fe1cb8e7fa5408d1deab014c5fc0021dc9e9585586fb4f382f&ipo=images"></img>
+            <div className='inline-block pl-[50px] w-[300px]'>
+              <h2 className='text-left text-[20px]'>Some Words on OpenAI</h2>
+              <h2 className='text-left text-[15px]'>01-22-23</h2>
+            </div>
+          </div>
+          </a>
+        </li>  
+        <li className='w-[650px] py-[50px] mx-auto'>
+          <a href="/blog/statistics">
+          <div >
+            <img width="300px" className="inline-block rounded-md" src="https://statisticsglobe.com/wp-content/uploads/2019/10/figure-2-barplot-in-color-in-R-programming-language.png"></img>
+            <div className='inline-block pl-[50px] w-[300px]'>
+              <h2 className='text-left text-[20px]'>Learning Some Stats with ChartJS"</h2>
+              <h2 className='text-left text-[15px]'>09-04-22</h2>
+            </div>
+          </div>
+          </a>
+        </li>  
+        <li className='w-[650px] py-[50px] mx-auto'>
+          <a href="/blog/pokedex">
+          <div >
+            <img width="300px" className="inline-block rounded-md" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpurepng.com%2Fpublic%2Fuploads%2Flarge%2Fpurepng.com-pokeballpokeballdevicepokemon-ballpokemon-capture-ball-1701527825800omhst.png&f=1&nofb=1&ipt=aeff9430583a0c708c91a1a8b60c012d31c8ca6e289832774a721e4dffa2df00&ipo=images"></img>
+            <div className='inline-block pl-[50px] w-[300px]'>
+              <h2 className='text-left text-[20px]'>Making a Pokédex</h2>
+              <h2 className='text-left text-[15px]'>06-21-22</h2>
+            </div>
+          </div>
+          </a>
+        </li>  
+        <li className='w-[650px] py-[50px] mx-auto'>
+          <a href="/blog/javascript">
+          <div >
+            <img width="300px" className="inline-block rounded-md" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.yU-6wV1RbGA-AH0AkbzkJQHaD4%26pid%3DApi&f=1&ipt=f9dfaf5386234f665bf2071f7a6f4badbe6757da4daf6a2c1e65690acdeaca02&ipo=images"></img>
+            <div className='inline-block pl-[50px] w-[300px]'>
+              <h2 className='text-left text-[20px]'>Learning Javascript</h2>
+              <h2 className='text-left text-[15px]'>04-16-22</h2>
+            </div>
+          </div>
+          </a>
+        </li>  
+      </ul> 
 
 
     </div>
