@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Footer from '../../components/Footer';
 import Image from 'next/image'
 import cf from '../../assets/spotify.png'
-export default function summerupdate () {
+export default function winter () {
     return (
         <div className='text-center bg-[#f3f3f3]'>
             <Head>
