@@ -30,7 +30,7 @@ export default function Home() {
         <br></br>
       </div>
       <div>
-        <h2 className='text-5xl font-bl ack pt-[1rem]'>kach0w</h2>
+        <h2 className='text-5xl font-black font-[900] pt-[1rem]'>kach0w</h2>
       </div>
       <div className='mb-[2vh] italic'>
         Trying to Learn New Things.
