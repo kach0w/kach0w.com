@@ -37,6 +37,9 @@ export default function Home() {
       </div>
       
       <div className='w-[15rem] sm:w-[30rem] dark:bg-slate-800 h-[7rem] sm:h-[15rem] text-[0.5rem] sm:text-base sm:h-[14rem] md:flex sm:flex relative rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.30)] m-auto mb-[2vh] text-center'>
+        <div className='absolute w-[15rem] sm:w-[30rem] mx-auto text-center inset-x-0 top-0 pb-2 sm:pb-2'>
+          <Image className="w-[7rem]" src="https://embedlify.vercel.app/api/og?holiday=christmas"></Image>
+        </div>
         <div className='absolute w-[7rem] sm:w-[15rem]  left-0 top-0'>
           <Image src={rusteze} alt="img" />
         </div>
