@@ -30,7 +30,7 @@ export default function Home() {
         <br></br>
       </div>
       <div>
-        <h2 className='text-5xl font-bl ack pt-[1rem]'>kach0w</h2>
+        <h2 className='text-5xl font-black font-[900] pt-[1rem]'>kach0w</h2>
       </div>
       <div className='mb-[2vh] italic'>
         Trying to Learn New Things.
@@ -86,13 +86,13 @@ export default function Home() {
       </div>
               
       <h2 className='font-bold text-2xl underline'>Latest Blog Post</h2>
-      <a href="/blog/summerupdate">
+      <a href="/blog/winterupdate">
           <div className='w-[15rem] dark:bg-slate-800 sm:w-[30rem] text-[0.5rem] sm:text-base group rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.30)] mx-auto p-3 mb-[2vh] text-left'>
             <p className='font-bold group-hover:underline text-slate-900 dark:text-[white] not-italic'>Winter Update or: How I Need Better Titles, Oh Wait "So Long 2023!"</p>
             <p className=' mt-2 text-[0.4rem] sm:text-sm text-slate-400 not-italic'>December 11th, 2023</p>          
           </div>  
       </a>
-      <div className='dark:bg-slate-900'>
+      <div className='dark:bg-slate-900 bg-[#f3f3f3]'>
         <div className='w-[25rem] mx-auto text-slate-500 dark:text-slate-200 text-sm font-normal'>
           <div className="float-left">
               <p>Fremont, California</p>

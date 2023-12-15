@@ -15,7 +15,7 @@ export default function Home() {
                 <meta name="description" content="kach0w's blog"></meta>
                 <link rel="icon" href="/favicon.png"/> 
             </Head>
-            <div className='w-[50rem] mx-auto bg-white text-[#222] font-serif'>
+            <div className='w-[50rem] mx-auto bg-[#f3f3f3] text-[#222] font-serif'>
                 <div className='mx-auto mt-[3rem] text-center'>
                     <a className='float-left text-[#3b82f6] hover:underline' href="https://kach0w.com/blog">⮤ Back</a>
                     <br></br>
