@@ -1,12 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Script from 'next/script';
-import rusteze from '../assets/rusteze-2.png';
+import rusteze from '../assets/rusteze-3.png';
 import { useState } from 'react';
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
-
   const toggleDarkMode = () => {
     setDarkMode(prevMode => !prevMode);
     document.documentElement.classList.toggle('dark');
@@ -36,18 +35,21 @@ export default function Home() {
         Trying to Learn New Things.
       </div>
       
-      <div className='w-[15rem] sm:w-[30rem] dark:bg-slate-800 h-[7rem] sm:h-[15rem] text-[0.5rem] sm:text-base sm:h-[14rem] md:flex sm:flex relative rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.30)] m-auto mb-[2vh] text-center'>
-        <div className='absolute w-[15rem] sm:w-[30rem] mx-auto text-center inset-x-0 top-0 pb-2 sm:pb-2'>
-          <Image className="w-[7rem]" src="https://embedlify.vercel.app/api/og?holiday=christmas"></Image>
+      <div className='w-[15rem] sm:w-[30rem] dark:bg-slate-800 text-[0.5rem] sm:text-base sm:h-auto relative rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.30)] mx-auto mb-[2vh] text-center'>
+        <div className='w-[15rem] sm:w-[30rem] mx-auto text-center top-0 '>
+          <img className="mx-auto p-2"  src="https://embedlify.vercel.app/api/og" />
         </div>
-        <div className='absolute w-[7rem] sm:w-[15rem]  left-0 top-0'>
-          <Image src={rusteze} alt="img" />
+        <div className='w-[12rem] h-[12rem] sm:h-[10rem] sm:w-[30rem]'>
+          <div className='inline-block w-[6rem] h-[6rem] sm:h-[9rem] sm:w-[15rem] pt-[11px]'>
+            <Image className='w-[6rem] h-[6rem] sm:h-[8rem] sm:w-[9.5rem] mx-auto' src={rusteze} alt="img" />
+          </div>
+          <div className='inline-block text-[0.5rem] sm:text-[1rem] w-[6rem] h-[6rem] sm:h-[9rem] sm:w-[13rem] my-auto mr-[2rem] pt-[15px] align-top'>
+            Hello, welcome to my website.
+            Check out some of my <a className='text-[#3b82f6] hover:underline' href="/projects">projects</a> and also view the <a className='text-[#3b82f6] hover:underline' href="/blog">blog</a> which I try (and mostly fail) to frequently update.
+          </div>
         </div>
-        <div className='absolute text-[0.5rem] mt-[1.3rem] sm:text-[1rem] w-[8rem] sm:w-[15rem] pr-[1rem] sm:pr-[2rem] pt-[1rem] sm:pt-[1rem] text-center top-0 right-0'>
-          Hello, welcome to my website.
-          Check out some of my <a className='text-[#3b82f6] hover:underline' href="/projects">projects</a> and also view the <a className='text-[#3b82f6] hover:underline' href="/blog">blog</a> which I try (and mostly fail) to frequently update.
-        </div>
-        <div className='absolute w-[15rem] sm:w-[30rem] mx-auto text-center inset-x-0 bottom-0 pb-2 sm:pb-2'>
+       
+        <div className='w-[15rem] sm:w-[30rem] mx-auto text-center inset-x-0 bottom-0 pb-2 sm:pb-2'>
           <p>
             <a className='text-[#3b82f6] hover:underline' href="/comments">comment section</a>
             &nbsp;•&nbsp;
