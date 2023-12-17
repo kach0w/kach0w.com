@@ -37,7 +37,7 @@ export default function Home() {
       
       <div className='w-[15rem] sm:w-[30rem] dark:bg-slate-800 text-[0.5rem] sm:text-base sm:h-auto relative rounded-md shadow-[0_1px_4px_rgba(0,0,0,0.30)] mx-auto mb-[2vh] text-center'>
         <div className='w-[15rem] sm:w-[30rem] mx-auto text-center top-0 '>
-          <img className="mx-auto p-2"  src="https://embedlify.vercel.app/api/og" />
+          <img className="mx-auto p-2"  src="https://embedlify.vercel.app/api/og?color=7a2e2d" />
         </div>
         <div className='w-[12rem] h-[12rem] sm:h-[10rem] sm:w-[30rem]'>
           <div className='inline-block w-[6rem] h-[6rem] sm:h-[9rem] sm:w-[15rem] pt-[11px]'>
