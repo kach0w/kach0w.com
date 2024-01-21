@@ -17,7 +17,7 @@ export default function Home() {
   };
 
   return (
-    <div className={`w-[100vw] text-[#222] dark:text-[white] bg-[#f3f3f3] dark:bg-slate-900 text-center font-sans ${darkMode ? 'dark' : ''}`}>
+    <div className={`w-[100vw] text-[#343a40] dark:text-[white] bg-[#f3f3f3] dark:bg-slate-900 text-center font-sans ${darkMode ? 'dark' : ''}`}>
       <Head>
         <title>kach0w</title>
         <meta name="description" content="kach0w's website"></meta>
@@ -29,7 +29,7 @@ export default function Home() {
         <br></br>
       </div>
       <div>
-        <h2 className='text-5xl font-black font-[900] pt-[1rem]'>kach0w</h2>
+        <h2 className='text-[3rem] font-[700] pt-[1rem]'>kach0w</h2>
       </div>
       <div className='mb-[2vh] italic'>
         Trying to Learn New Things.
@@ -40,10 +40,10 @@ export default function Home() {
           <img className="mx-auto p-2"  src="https://embedlify.vercel.app/api/og?color=7a2e2d" />
         </div>
         <div className='w-[12rem] h-[12rem] sm:h-[10rem] sm:w-[30rem]'>
-          <div className='inline-block w-[6rem] h-[6rem] sm:h-[9rem] sm:w-[15rem] pt-[11px]'>
+          <div className='inline-block w-[6rem] h-[6rem] sm:h-[9rem] sm:w-[14rem] pt-[11px]'>
             <Image className='w-[6rem] h-[6rem] sm:h-[8rem] sm:w-[9.5rem] mx-auto' src={rusteze} alt="img" />
           </div>
-          <div className='inline-block text-[0.5rem] sm:text-[1rem] w-[6rem] h-[6rem] sm:h-[9rem] sm:w-[13rem] my-auto mr-[2rem] pt-[15px] align-top'>
+          <div className='inline-block text-[0.5rem] sm:text-[1rem] w-[6rem] h-[6rem] sm:h-[9rem] sm:w-[14rem] my-auto mr-[2rem] pt-[15px] align-top'>
             Hello, welcome to my website.
             Check out some of my <a className='text-[#3b82f6] hover:underline' href="/projects">projects</a> and also view the <a className='text-[#3b82f6] hover:underline' href="/blog">blog</a> which I try (and mostly fail) to frequently update.
           </div>
